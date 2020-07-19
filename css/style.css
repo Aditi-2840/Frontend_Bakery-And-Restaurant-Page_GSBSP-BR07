@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+}
+/* home/landing page section */
+#background{
+  position: relative;
+  text-align: center;
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#background #image{
+  opacity: 0.45;
+}
+ #background .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Kaushan Script', cursive;
+  font-size: 8vw;
+  color:rgba(243, 101, 19, 0.897);
+  opacity: 1;
+  
+}  
+@media only screen and (min-width: 400px) {
+  #background{
+  position: relative;
+  text-align: center;
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+}
+/* ---- */
+
+/* about-us section */
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+  font-family: sans-serif;
+  box-sizing: border-box;
+    
+}
+.about-section #about{
+  text-align: start;
+}
+.about-section sub-heading{
+  font: bold;
+}
+.card{
+  border-radius: 50px;
+
+}
+.card-body{
+  text-align: center;
+  color: #272727;
+}
+.row  img{
+  widows: 200px;
+  height: 200px;
+}
+/* ----- */
+
+/* map section  */
+.map-container-6 {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-container-6 iframe {
+  left: 0;
+  top: 0;
+  height: 90%;
+  width: 100%;
+  position: absolute;
+}
+/* ---- */
+/* contact us form */
+h2 {
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  padding-top: 10px;
+  text-shadow: tan;
+}
+.container-fluid {
+    background-color:rgb(244, 249, 250);
+}
+
+.md-form {
+  margin-top: 10px;
+}
+
+.border {
+  width: 160px;
+  height: 5px;
+  background: black;
+  margin: 10px auto;
+  margin-bottom: 30px;
+}
+.container-fluid p {
+  color: black;
+  font-weight: bold;
+}
+a {
+  color: white;
+}
+.col-lg-7 {
+  padding-top: 5px;
+}
+.form-control {
+  background: white;
+}
+
+.card-body {
+  width: 100%;
+}
+
+.accordion {
+  background-color:#ff7300;
+  color: #FFF;
+  cursor: pointer;
+  padding: 1rem;
+  width: 60%;
+  text-align: left;
+  border: 1px solid white;
+  outline: none;
+  transition: 0.4s;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color:#ff7300;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 20px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  font: size 1.4rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.panel p{
+  font: 16px Lato, sans-serif; 
+  width: 60%;
+  text-align: left;
+  border: 2px  60% solid #ff7300;
+  
+}
+
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 15px;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+/* ---- */
+
+/* footer section */
+.footer-main-div{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  background: #272727;
+  padding: 20px 0px;
+}
+.footer-social-icons{
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.footer-social-icons ul{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+.footer-social-icons ul li{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 00px 10px;
+  border-radius: 100%;
+  background: white;
+}
+.footer-social-icons ul li a{
+  color: #272727;
+  font-size: 25px;
+}
+.footer-social-icons ul li a i{
+  line-height: 50px;
+}
+.footer-bottom{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  background: #ff3700;
+  padding: 5px;
+  text-align: center;
+}
+/* ----- */
